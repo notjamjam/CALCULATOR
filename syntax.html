@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <title>Basic Synatax os JS</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
-    <h1 id="title">Hello JS</h1>
+  <body class="container">
+    <div class="content">
+      <h1 id="title">Hello JS</h1>
 
-    <form>
-      <h6 id="answer"></h6>
-      <input type="number" id="num1" /> <br />
-      <input type="number" id="num2" /> <br />
-      <br />
+      <form>
+        <h2 id="answer" aria-live="assertive"></h2>
+        <input type="number" id="num1" /> <br />
+        <input type="number" id="num2" /> <br />
+        <br />
 
-      <button type="button" onclick="addNumbers()">Calculate</button>
-    </form>
-
+        <button type="button" onclick="addNumbers()">Calculate</button>
+      </form>
+    </div>
     <!-- <p id="text"></p> -->
 
     
